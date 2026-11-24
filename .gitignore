@@ -1,0 +1,57 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated datasets
+data/**/*.csv
+data/**/*.json
+data/**/*.parquet
+
+# Generated ML models
+models/*.pkl
+models/*.joblib
+
+# Generated reports
+reports/*.csv
+reports/*.txt
+
+# Logs
+*.log
+logs/
+
+# Spark temporary files
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
