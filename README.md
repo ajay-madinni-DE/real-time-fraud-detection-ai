@@ -158,7 +158,7 @@ The following commands are intended for Windows CMD.
 ### 1. Clone the Repository
 
 ```cmd
-git clone https://github.com/palvp1/real-time-fraud-detection-ai.git
+git clone https://github.com/ajay-madinni-DE/real-time-fraud-detection-ai.git
 cd real-time-fraud-detection-ai
 ```
 
